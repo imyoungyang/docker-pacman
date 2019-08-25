@@ -12,5 +12,5 @@ RUN chmod -R 755 /usr/share/nginx/html/*
 RUN chown -R www-data /usr/share/nginx/html/*
 #
 #USAGE:
-# docker run --name pacman -d -p 80:80 pacman
+# docker run --name pacman -d -p 8080:80 pacman
 
